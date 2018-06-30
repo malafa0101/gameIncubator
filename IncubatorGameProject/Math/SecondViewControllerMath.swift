@@ -127,7 +127,6 @@ class SecondViewControllerMath: UIViewController {
         alertController.addAction(saveAction)
         
           self.present(alertController, animated: true, completion: nil)}
-          timer.invalidate()
       }
     }
     else if(record==20){
